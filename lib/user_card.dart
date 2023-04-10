@@ -52,8 +52,8 @@ class UserCard extends StatelessWidget {
             ),
             Container(
               decoration: BoxDecoration(
-                  border: Border.all(width: 3),
-                  borderRadius: BorderRadius.circular(70),
+                  // border: Border.all(width: 1),
+                  borderRadius: BorderRadius.circular(90),
                   color: Colors.teal),
               child: Text(
                 unreadCount,
