@@ -68,17 +68,17 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         elevation: 0.0,
         backgroundColor: const Color(0xff55979F),
-        leading: Icon(Icons.menu),
-        title: Text(
+        leading: const Icon(Icons.menu),
+        title: const Text(
           "Telegram",
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.bold,
           ),
         ),
-        actions: [
+        actions: const [
           Padding(
-            padding: const EdgeInsets.only(right: 10.0),
+            padding: EdgeInsets.only(right: 10.0),
             child: Icon(Icons.search),
           ),
         ],
